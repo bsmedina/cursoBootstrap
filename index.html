@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Top Casa Fina Arquitetura</title>
+    <link href="./assets/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="./assets/css/estilos.css" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <!-- O que desejamos é compactar ou descompactar o texto e podemos utilizar, para tanto, o collapse. -->
+        <!-- O data-toggle serve para passar a ação de "collapse" ou de "descollapse" e o data-target serve para indicar qual é o alvo desse comportamento.  -->
+        <h2>Sobre Nós</h2>
+        <img class="img-responsive" src="./assets/img/empresa.jpg" alt="Imagem empresa">
+    <div class="panel-group" id="paineis-sobre">
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <h3 class="panel-title" data-toggle="collapse" data-target="#primeiro-paragrafo" data-parent="#paineis-sobre">Desde 1935</h3>
+            </div>
+            <div id="primeiro-paragrafo" class="collapse in">
+                <div class="panel-body">
+                    <p>Desde 1935 trazendo casas, mansões e prédios lindos para o mundo.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="panel panel-default">
+            <div class="panel-heading">        
+                <h3 class="panel-title" data-toggle="collapse" data-target="#segundo-paragrafo" >Preços acessíveis</h3>
+            </div>
+            <div id="segundo-paragrafo" class="collapse">
+                <div class="panel-body">
+                    <p>Preços a partir de R$ 1000,00.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="panel panel-default">
+            <div class="panel-heading"> 
+                <h3 class="panel-title" data-toggle="collapse" data-target="#terceiro-paragrafo">Alegria em colaborar para um mundo mais bonito</h3>
+            </div>
+            <div id="terceiro-paragrafo" class="collapse">
+                <div class="panel-body">
+                    <p>Trazendo alegria para a vida das pessoas que tem dinheiro para gastar.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- É importante lembrar que o JQuery deve ser importado antes do Bootstrap. -->
+    <script src="./assets/js/jquery.js"> </script>
+    <script src="./assets/bootstrap/js/bootstrap.min.js"> </script>
+</body>
+</html>
