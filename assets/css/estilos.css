@@ -67,3 +67,33 @@ footer {
 footer address:last-child {
 	margin-bottom: 0;
 }
+
+@media (min-width: 768px) {
+
+    .titulo-depoimentos{
+        width: 100%;
+    }
+
+    #paineis-sobre {
+        margin-top: 0;
+    }
+}
+
+@media (min-width: 992px) {
+
+    .titulo-depoimentos{
+        width: 100%;
+        text-align: center;
+    }
+
+    .topCasaFina-banner {
+        left: 0;
+        transform: translate(0, -80%);
+        width: 50%;
+    }
+
+    .topCasaFina-bannerWrapper {
+        height: 100%;
+        position: relative;
+    }
+}
